@@ -1,11 +1,11 @@
 Name:     vboxmanage
-Version:  3.1.8
+Version:  4.2.6
 Release:  1.abiquo
 Summary:  VirtualBox VBoxManage Command
 Group:    Development/System 
 License:  Multiple 
 URL:      http://www.virtualbox.org
-Source:   http://mirror.abiquo.com/sources/VirtualBox-%{version}-OSE.tar.bz2
+Source:   http://mirror.abiquo.com/sources/VirtualBox-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires: iasl dev86 libxml2-devel libxslt-devel libIDL-devel hal-devel curl-devel dev86 libcap-devel glibc-devel libstdc++-devel libpng-devel libXmu-devel libX11-devel mesa-libGL-devel libXrandr-devel glibc openssl openssl-devel glibc-headers kBuild
 #BuildRequires: libgcc-multilib
